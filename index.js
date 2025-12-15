@@ -19,7 +19,7 @@ app.post("/remove-bg", async (req, res) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        image_base64: imageBase64,
+        image_file_b64: imageBase64,
         size: "auto",
       }),
     });
